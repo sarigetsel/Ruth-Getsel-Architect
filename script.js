@@ -25,7 +25,7 @@ function openGallery(type) {
         for(let i=1; i<=4; i++) imagesDiv.innerHTML += `<img src="officeBuilding/p${i}.png" alt="office ${i}">`;
     } else if(type === 'kitchen2') {
         title.innerText = 'הדמיית מטבח';
-        for(let i=1; i<=2; i++) imagesDiv.innerHTML += `<img src="kitchen2/p (${i}).png" alt="kitchen2 ${i}">`;
+        for(let i=1; i<=6; i++) imagesDiv.innerHTML += `<img src="kitchen2/p (${i}).png" alt="kitchen2 ${i}">`;
     } else if(type === 'villa') {
         title.innerText = 'וילה';
         for(let i=1; i<=4; i++) imagesDiv.innerHTML += `<img src="villa/p${i}.png" alt="villa ${i}">`;
